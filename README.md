@@ -41,7 +41,12 @@ console.log(message + " from " + fisrtName);
 
 
 ```
-
+* Running a Typescript code
+```
+npm install -g typescript
+tsc sample.ts
+node sample.js
+```
 
 ## Docs
 - https://www.geeksforgeeks.org/hello-world-in-typescript-language/

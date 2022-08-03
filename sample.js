@@ -1,3 +1,18 @@
+var Clock = /** @class */ (function () {
+    function Clock() {
+        this.currentTime = new Date();
+    }
+    Clock.prototype.setTime = function (d) {
+        this.currentTime = d;
+    };
+    Clock.prototype.getTime = function () {
+        return this.currentTime;
+    };
+    return Clock;
+}());
+// LOG
+var clock = new Clock();
+console.log(clock.currentTime);
 var Person = /** @class */ (function () {
     function Person(fname, lname) {
         this.first_name = fname;

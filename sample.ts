@@ -1,9 +1,34 @@
  
-class Person {
-    first_name: string;
-    last_name: string;
+interface ClockInterface {
+    currentTime: Date;
+    setTime(d: Date): void;
+}
   
-    constructor(fname: string, lname: string)
+class Clock implements ClockInterface {
+    currentTime: Date = new Date();
+  
+    setTime(d: Date) {
+      this.currentTime = d;
+    }
+    constructor() {}
+  
+    getTime():Date{
+      return this.currentTime;
+    }
+}
+
+
+// LOG
+let clock: Clock = new Clock();
+console.log(clock.currentTime);
+  
+
+
+class Person {
+    first_name !: string;
+    last_name ?: string;
+  
+    constructor(fname: string, lname : string)
     {
         this.first_name = fname;
         this.last_name = lname;

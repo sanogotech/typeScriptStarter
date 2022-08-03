@@ -18,12 +18,38 @@ TypeScript is an open-source programming language. It is developed and maintaine
 ## Sample  Code :   sample.ts
 
 ```typeScript
+
  
-class Person {
-    first_name: string;
-    last_name: string;
+interface ClockInterface {
+    currentTime: Date;
+    setTime(d: Date): void;
+}
   
-    constructor(fname: string, lname: string)
+class Clock implements ClockInterface {
+    currentTime: Date = new Date();
+  
+    setTime(d: Date) {
+      this.currentTime = d;
+    }
+    constructor() {}
+  
+    getTime():Date{
+      return this.currentTime;
+    }
+}
+
+
+// LOG
+let clock: Clock = new Clock();
+console.log(clock.currentTime);
+  
+
+
+class Person {
+    first_name !: string;
+    last_name ?: string;
+  
+    constructor(fname: string, lname : string)
     {
         this.first_name = fname;
         this.last_name = lname;
@@ -35,12 +61,12 @@ class Person {
     }
 }
   
+  
 var person1: Person = new Person("Gombo","KOFFI");
 
 var message: string = "Akwaba";
 var firstName: string = person1.getName();
 console.log(message + " from " + firstName);
-
 
 
 ```
@@ -52,5 +78,7 @@ node sample.js
 ```
 
 ## Docs
+- https://www.typescriptlang.org/
+- https://www.typescriptlang.org/docs/handbook/variable-declarations.html
 - https://www.geeksforgeeks.org/hello-world-in-typescript-language/
 - https://betterprogramming.pub/get-started-with-typescript-part-1-440d2ec9e59

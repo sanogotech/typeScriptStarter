@@ -37,5 +37,5 @@ var henry: Person;
 ```
 
 ## Docs
-
+- https://www.geeksforgeeks.org/hello-world-in-typescript-language/
 - https://betterprogramming.pub/get-started-with-typescript-part-1-440d2ec9e59

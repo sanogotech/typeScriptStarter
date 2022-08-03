@@ -5,15 +5,19 @@ class Person {
   
     constructor(fname: string, lname: string)
     {
-        first_name = fname;
-        last_name = lname;
+        this.first_name = fname;
+        this.last_name = lname;
     }
     getName(): string
     {
-        var fullname: string = first_name + last_name;
+        var fullname: string = this.first_name + " " + this.last_name;
         return fullname;
     }
 }
   
-var henry: Person;
+  
+var person1: Person = new Person("Gombo","KOFFI");
 
+var message: string = "Akwaba";
+var firstName: string = person1.getName();
+console.log(message + " from " + firstName);

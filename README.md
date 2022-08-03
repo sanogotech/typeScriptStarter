@@ -85,7 +85,8 @@ console.log(StatusCodes.Success);
 * Running a Typescript code
 ```
 npm install -g typescript
-tsc sample.t
+tsc --version
+tsc sample.ts
 node sample.js
 ```
 

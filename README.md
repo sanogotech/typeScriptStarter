@@ -13,7 +13,7 @@ void and undefined — These values are commonly used to specifically denote tha
 
 ## Sample  Code
 
-```
+```typeScript
  
 class Person {
     first_name: string;

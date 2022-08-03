@@ -92,5 +92,6 @@ node sample.js
 ## Docs
 - https://www.typescriptlang.org/
 - https://www.typescriptlang.org/docs/handbook/variable-declarations.html
+- https://www.w3schools.com/typescript/
 - https://www.geeksforgeeks.org/hello-world-in-typescript-language/
 - https://betterprogramming.pub/get-started-with-typescript-part-1-440d2ec9e59

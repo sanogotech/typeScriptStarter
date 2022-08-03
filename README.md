@@ -1,5 +1,8 @@
 # typeScriptStarter
-TypeScript   Starter
+TypeScript   Starter.
+
+TypeScript is an open-source programming language. It is developed and maintained by Microsoft. TypeScript follows javascript syntactically but adds more features to it. It is a superset of javascript. 
+
 
 
 ##  Basic Type

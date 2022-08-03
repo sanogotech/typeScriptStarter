@@ -33,6 +33,8 @@ console.log(clock.currentTime);
 class Person {
     first_name !: string;
     last_name ?: string;
+    hobbies: Array<string>;
+    age : number;
   
     constructor(fname: string, lname : string)
     {
@@ -48,10 +50,13 @@ class Person {
   
   
 var person1: Person = new Person("Gombo","KOFFI");
+//let fruits: string[] = ['Apple', 'Orange', 'Banana'];
+person1.hobbies = ['Book', 'Sport', 'Travel'];
 
 var message: string = "Akwaba";
 var firstName: string = person1.getName();
 console.log(message + " from " + firstName);
+console.log(person1.hobbies)
 
 // logs 404
 console.log(StatusCodes.NotFound);

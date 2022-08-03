@@ -32,9 +32,12 @@ var Person = /** @class */ (function () {
     return Person;
 }());
 var person1 = new Person("Gombo", "KOFFI");
+//let fruits: string[] = ['Apple', 'Orange', 'Banana'];
+person1.hobbies = ['Book', 'Sport', 'Travel'];
 var message = "Akwaba";
 var firstName = person1.getName();
 console.log(message + " from " + firstName);
+console.log(person1.hobbies);
 // logs 404
 console.log(StatusCodes.NotFound);
 // logs 200

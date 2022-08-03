@@ -39,11 +39,11 @@ class Clock implements ClockInterface {
 }
 
 enum StatusCodes {
-  NotFound = 404,
-  Success = 200,
-  Accepted = 202,
-  BadRequest = 400
-}
+    NotFound = 404,
+    Success = 200,
+    Accepted = 202,
+    BadRequest = 400
+  }
 
 // LOG
 let clock: Clock = new Clock();
@@ -54,6 +54,8 @@ console.log(clock.currentTime);
 class Person {
     first_name !: string;
     last_name ?: string;
+    hobbies: Array<string>;
+    age : number;
   
     constructor(fname: string, lname : string)
     {
@@ -69,17 +71,18 @@ class Person {
   
   
 var person1: Person = new Person("Gombo","KOFFI");
+//let fruits: string[] = ['Apple', 'Orange', 'Banana'];
+person1.hobbies = ['Book', 'Sport', 'Travel'];
 
 var message: string = "Akwaba";
 var firstName: string = person1.getName();
 console.log(message + " from " + firstName);
-
+console.log(person1.hobbies)
 
 // logs 404
 console.log(StatusCodes.NotFound);
 // logs 200
 console.log(StatusCodes.Success);
-
 
 ```
 * Running a Typescript code
@@ -94,5 +97,6 @@ node sample.js
 - https://www.typescriptlang.org/
 - https://www.typescriptlang.org/docs/handbook/variable-declarations.html
 - https://www.w3schools.com/typescript/
+- https://www.tutorialsteacher.com/typescript/typescript-array
 - https://www.geeksforgeeks.org/hello-world-in-typescript-language/
 - https://betterprogramming.pub/get-started-with-typescript-part-1-440d2ec9e59

@@ -32,9 +32,16 @@ class Person {
     }
 }
   
-var henry: Person;
+var person1: Person = new Person("Gombo","KOFFI");
+
+var message: string = "Akwaba";
+var firstName: string = person1.getName();
+console.log(message + " from " + fisrtName);
+
+
 
 ```
+
 
 ## Docs
 - https://www.geeksforgeeks.org/hello-world-in-typescript-language/

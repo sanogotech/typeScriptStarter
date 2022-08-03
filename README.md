@@ -38,6 +38,12 @@ class Clock implements ClockInterface {
     }
 }
 
+enum StatusCodes {
+  NotFound = 404,
+  Success = 200,
+  Accepted = 202,
+  BadRequest = 400
+}
 
 // LOG
 let clock: Clock = new Clock();
@@ -69,11 +75,17 @@ var firstName: string = person1.getName();
 console.log(message + " from " + firstName);
 
 
+// logs 404
+console.log(StatusCodes.NotFound);
+// logs 200
+console.log(StatusCodes.Success);
+
+
 ```
 * Running a Typescript code
 ```
 npm install -g typescript
-tsc sample.ts
+tsc sample.t
 node sample.js
 ```
 

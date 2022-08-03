@@ -12,7 +12,7 @@ TypeScript   Starter
 * null -
 * any — This is literally any and all types as a possibility. For example, you will commonly assign any when you’re starting to type a new object and you haven’t determined all the types. The rule of thumb is you probably shouldn’t use this in a permanent fashion.
 
-## Sample  Code
+## Sample  Code :   sample.ts
 
 ```typeScript
  

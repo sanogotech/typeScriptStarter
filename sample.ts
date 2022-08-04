@@ -4,7 +4,7 @@ interface ClockInterface {
     setTime(d: Date): void;
 }
   
-class Clock implements ClockInterface {
+export class Clock implements ClockInterface {
     currentTime: Date = new Date();
   
     setTime(d: Date) {

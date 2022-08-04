@@ -1,3 +1,6 @@
+"use strict";
+exports.__esModule = true;
+exports.Clock = void 0;
 var Clock = /** @class */ (function () {
     function Clock() {
         this.currentTime = new Date();
@@ -10,6 +13,7 @@ var Clock = /** @class */ (function () {
     };
     return Clock;
 }());
+exports.Clock = Clock;
 var StatusCodes;
 (function (StatusCodes) {
     StatusCodes[StatusCodes["NotFound"] = 404] = "NotFound";

@@ -95,8 +95,11 @@ node sample.js
 
 ## Docs
 - https://www.typescriptlang.org/
+- https://www.typescriptlang.org/docs/handbook/modules.html
+- https://github.com/sanogotech/typescript-cheatsheet
 - https://www.typescriptlang.org/docs/handbook/variable-declarations.html
 - https://www.w3schools.com/typescript/
+- https://www.typescriptlang.org/cheatsheets
 - https://www.tutorialsteacher.com/typescript/typescript-array
 - https://www.geeksforgeeks.org/hello-world-in-typescript-language/
 - https://betterprogramming.pub/get-started-with-typescript-part-1-440d2ec9e59
